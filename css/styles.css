@@ -1,0 +1,298 @@
+body{
+	background-image: url(../img/fondo2.jpg);
+	background-size: 100%;
+}
+
+/*heder*/
+header{
+	text-align: center;
+	background-color: #adccc7;
+	width: 100%; 
+}
+
+nav a{
+	text-decoration: none;
+	color: #adccc7;
+	font-family: 'Indie Flower', cursive;
+	display: inline-block;
+	padding: 15px 0;
+	width: 15%;
+	font-weight: bold;
+}
+
+nav{
+	background-color: #144c52;
+	height: 40px;
+}
+
+nav:hover{
+	background: linear-gradient(to right, #00204a,#005792,#448ef6, #fdb44b);
+}
+
+header img{
+	height: 14vh;
+	margin-top: 10px;
+}
+
+/*main*/
+
+/*Acerca de mi*/
+#tarjeta {
+	background: linear-gradient(to bottom, #7d7d7d,#c5c5c5,#fed9ca, #ffefe0);
+	width: 30%;
+	margin: 8% 0 0 38%;
+}
+
+#tarjeta:hover {
+	background: linear-gradient(to bottom, #1d4d4f,#357376,#6ba8a9, #e5dfdf);
+	width: 30%;
+	margin: 8% 0 0 38%;
+	opacity: 0.8;
+}
+
+#tarjeta img{
+	width: 50%;
+	height: 250px;
+	margin: 7% 0 0 26%;
+}
+
+#tarjeta li{
+	color: #943855;
+	font-family: 'Cinzel', serif;
+	font-size: 20px;
+}
+
+#tarjeta li:hover{
+	color: white;
+	font-family: 'Cinzel', serif;
+	font-size: 20px;
+}
+
+.me{
+	background-color: #b5525c;
+	opacity: 0.6;
+	width: 30%;
+	border-style: double;
+	border-color: white;
+	margin: 12% 0 0 2%;
+}
+
+.me:hover{
+	opacity: 1;
+}
+#apt{
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 35px;
+	color: #2c003e;
+}
+
+li{
+	text-align: left;
+	margin-top: 10px;
+	color: #e8e8e8;
+}
+
+#me2{
+	background-color: #2c003e;
+	opacity: 0.5;
+	width: 25%;
+	border-style: double;
+	border-color: white;
+	margin: 3% 0 0 68%;
+}
+
+#me2:hover{
+	opacity: 1;
+}
+
+#act{
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 35px;
+	color: #b5525c;
+}
+
+.me h2{
+	text-align: center;
+	color: #e8e8e8;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+/*Resume*/
+.estudios{
+	background-color: #992e24;
+	opacity: 0.6;
+	color: #04879c;
+	text-align: center;
+	width: 30%;
+	border-style: double;
+	border-color: white;
+	margin: 4% 0 0 2%;
+}
+
+.program{
+	background-color: #0c9463;
+	text-align: center;
+	opacity: 0.5;
+	width: 25%;
+	border-style: double;
+	border-color: white;
+	margin: 3% 0 0 68%;
+}
+
+.estudios:hover{
+	opacity: 1;
+}
+
+.program:hover{
+	opacity: 1;
+}
+/*contacto*/
+form{
+	text-align: center;
+	margin-top: 3%;
+	color: #6e2142;
+	opacity: 0.9;
+}
+#contacto h1{
+	font-family: 'Handlee', cursive;
+	font-weight: bolder;
+}
+#contacto input, textarea{
+	margin: 17px;
+	padding: 3px;
+	background-color: #f1d4d4;
+	border-color: #6e2142;
+}
+
+button{
+	background: #6e2142;
+	border-color: #f1d4d4;
+	color: white;
+	font-family: 'Handlee', cursive;
+	font-size: 15px;
+	padding: 7px;
+}
+
+button:hover{
+	background: #144c52;
+	border-color: #6e2142;
+	color: white;
+	font-family: 'Handlee', cursive;
+	font-size: 15px;
+	padding: 7px;
+}
+/*Hobbies*/
+.hobbies{
+	background: linear-gradient(to right, #fa4659,#481380, #742dd2, #efb1ff);
+	width: 100%;
+	height: 45px;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+.hobbies:hover{
+	background: linear-gradient(to left, #fa4659,#481380, #742dd2, #efb1ff);
+	width: 100%;
+	height: 45px;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	opacity: 0.6;
+}
+
+.hobbies h2{
+	font-family: 'Great Vibes', cursive;
+	font-weight: lighter;
+	font-size: 35px;
+	text-align: center;
+	color: #ecf0f1;
+	padding: 6px 0;
+}
+
+#video1{
+	margin-left: 2%;
+	width: 350px;
+	height: 215px;
+	display: inline-block;
+}
+
+#video2{
+	margin-left: 6%;
+	width: 350px;
+	height: 215px;
+	display: inline-block;
+}
+
+#video3{
+	margin-left: 6%;
+	width: 350px;
+	height: 215px;
+	display: inline-block;
+}
+
+#foto1{
+	margin-left: 10%;
+	width: 15%;
+	display: inline-block;
+}
+
+#foto2{
+	margin-left: 5%;
+	width: 15%;
+	display: inline-block;
+}
+
+#foto3{
+	margin-left: 5%;
+	width: 15%;
+	display: inline-block;
+}
+
+#foto4{
+	margin-left: 5%;
+	width: 15%;
+	display: inline-block;
+}
+
+#foto1 img{
+	width: 100%;
+}
+
+#foto2 img{
+	width: 100%;
+}
+
+#foto3 img{
+	width: 100%;
+	height: 280px;
+}
+
+#foto4 img{
+	width: 100%;
+}
+
+/*Footer*/
+
+footer{
+	background-color: #adccc7;
+	text-align: center;
+	height: 115px;
+	margin-top: 2%;
+}
+
+.redes{
+	height: 50px;
+	padding-top: 15px;
+}
+
+.redes a{
+	margin: 0 2% 0 0;
+}
+
+.redes h2{
+	margin-top: 5px;
+}
